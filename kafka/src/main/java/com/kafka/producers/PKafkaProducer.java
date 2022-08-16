@@ -23,6 +23,7 @@ public class PKafkaProducer {
 		"org.apache.kafka.common.serialization.StringSerializer");
 		props.put("value.serializer",
 		"org.apache.kafka.common.serialization.StringSerializer");
+		props.put("linger.ms","10");
 		
 		try(Producer<String, String>producer=new KafkaProducer<>(props);) {
 				for(int i= 0; i< 1000000;i++) {
