@@ -1,0 +1,10 @@
+INDEX VERSION 1.131+/home/usuario/Documents/workspace-spring-tool-suite-4-4.15.3.RELEASE/kafka/.metadata/.plugins/org.eclipse.jdt.core
+1824765277.index
+1896863810.index
+1701506684.index
+2701104266.index
+1865797976.index
+2746988326.index
+3668350026.index
+2395244625.index
+1729406100.index

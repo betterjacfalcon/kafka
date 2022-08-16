@@ -1,0 +1,18 @@
+package com.kafka.producers;
+
+import java.util.Properties;
+
+public class PKafkaProducer {
+
+	public static void main(String[] args) {
+		Properties props=new Properties();
+		props.put("bootstrap.servers","localhost:9092"); //Broker de kafka al que nos vamos a conectar
+		props.put("acks","1");
+		props.put("key.serializer",
+		"org.apache.kafka.common.serialization.StringSerializer");
+		props.put("value.serializer",
+		"org.apache.kafka.common.serialization.StringSerializer");
+
+	}
+
+}
